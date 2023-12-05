@@ -1,0 +1,342 @@
+body {
+   background-color:#000000;
+   color :#FF9E09;
+   
+}
+header{
+  margin:0px;
+  position:relative;
+  background-color: #000000;
+  box-shadow: 10px 0px #21D45B;
+  
+  
+}
+table{
+  text-align: center;
+  width:80%;
+  position:absolute;
+  right:0px;
+  left: 190px;
+  top: 30px;
+}
+.first{
+  position:relative;
+  margin: 0px;
+  background-image:url("bg2.jpg");
+  background-size:100% ;
+  background-size: cover;
+  width: 100%;
+  height:500px;
+}
+#firstimage{
+  position:absolute;
+  top:120px;
+  left:80px;
+  width:30%;
+  height: 310px;
+  border-radius:10px 10px 10px 10px;
+  box-shadow: 10px 10px 50px #000000;
+}
+#h1{
+  color: Black;
+  position:absolute;
+  right:0px;
+  top: 10px;
+  left:0px;
+  box-shadow: 10px 0px 50px #000000;
+}
+#name{
+  font-size: 25pt;
+}
+#web{
+  font-size: 15pt;
+}
+#quote{
+  color:#135BE8;
+  position: absolute;
+  top:150px;
+  right:150px;
+  text-align: center;
+  
+}
+p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+ width: 100%;
+ text-align: justify;
+}
+a{
+  text-decoration: none;
+  color: #D30000;
+}
+h2{
+  color: #BF0CD7;
+  font-size: 50px;
+  box-shadow: 10px 0px 50px #FD30E5;
+  text-align: center;
+  background-color: #000000;
+}
+.second{
+  position: relative;
+  margin-top:100px;
+  margin-bottom:0px;
+  width: 100%;
+  height:500px;
+  
+}
+#introcanvas{
+  width:35%;
+  height:350px;
+  margin-left: 60px;
+  border:10px solid #17CD48;
+  border-radius: 50%;
+  background-image:url("secondphoto.jpg");
+  background-size:cover;
+  background-position:center;
+  box-shadow: 10px  0px 50px #21D45B;
+}
+.intropara{
+  font-size: 20px;
+  
+  color: #169C08;
+ width:50%;
+ height:70%;
+  text-align: justify;
+  position: relative;
+  left: 450px;
+  bottom:400px;
+}
+.follow{
+  width:400px;
+  padding: 20px;
+  position: relative;
+  bottom:250px;
+  left:210px;
+}
+.aboutsection{
+  background-image: url("/bg1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width:100%;
+  height: 500px;
+  position: relative;
+  margin-top: 0px 5px 50px 5px;
+  
+}
+
+.aboutpara{
+color:#0F6D21;
+ width:50%;
+height:250px;
+  text-align: justify;
+  box-shadow: 2px 0px 30px #000000;
+  margin:30px;
+  margin-top: 80px;
+  padding: 30px;
+  border-radius: 10px 50px 10px 10px;
+
+}
+#aboutimage{
+  position:absolute;
+  top:140px;
+  right:80px;
+  width:30%;
+  height: 310px;
+  border-radius:60px 10px 10px 10px;
+  box-shadow: 10px 0px 50px #000000;
+  
+}
+button{
+  width:100%;
+ padding: 5px;
+  border-radius:35px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+background-color: skyblue;
+  color: #0F9F44;
+}
+
+.skillsection{
+  color: red;
+  width:100%;
+  height: 500px;
+  position: relative;
+  margin: 100px 5px 50px 5px;
+ 
+}
+#quote2{
+  margin-left: 350px;
+  font-size: 20pt;
+}
+#skillprogress{
+  margin-top: 20px;
+  margin-left: 250px;
+  padding : 20px 100px 100px 100px;
+  width:30%;
+  height: 200px;
+  box-shadow: 5px 0px 50px #0809FF;
+}
+progress{
+  margin-left: 50px;
+  height:40px;
+  width:100%;
+}
+.projectsection{
+  width:100%;
+  position: relative;
+  margin: 100px 5px 50px 5px;
+  
+}
+h3{
+  text-align: center;
+  color:#09D6D1;
+  font-size: 15pt;
+}
+#projectcanvas1{
+  width:40%;
+  height:400px;
+  margin-left: 260px;
+  border:1px solid #ffffff;
+  background-image:url("project1.jpg");
+  background-size:cover;
+  background-position: center;
+  box-shadow: 10px  0px 50px #21D45B;
+}
+.projectpara{
+  color:#EA1111;
+  font-size: 5px;
+  width:100%;
+  margin:10px 20px 10px 20px;
+}
+#projectcanvas2{
+width:90%;
+  height:400px;
+  margin-left:50px;
+  border:1px solid #ffffff;
+  background-image:url("ebook.jpg");
+  background-size:cover;
+  background-position: center;
+  box-shadow: 10px  0px 50px #21D45B;
+}
+.projectarea{
+  width:90%;
+  height:800px;
+  margin: 50px 10px 100px 50px;
+  border: 1px solid #E21DF5;
+  overflow:scroll;
+  overflow-x: auto ;
+  overflow-y:auto;
+}
+.resumesection{
+  width: 100%;
+ margin: 50px 5px 0px 5px;
+ position: relative;
+  
+}
+#resumecanvas{
+  width:30%;
+  height:300px;
+  margin-left: 80px;
+  margin-bottom: 0px;
+  border-radius: 10px 50px 50px 50px;
+  background-image: url("fourth.jpg");
+  background-size:350px;
+  background-position: 10px 200px 0px 10px;
+  box-shadow: 20px  0px 50px #12C5E1;
+}
+#resumepara{
+  font-size: 20px;
+  color: #20C4C6;
+  width:50%;
+  text-align: justify;
+  position: relative;
+  left: 450px;
+  bottom:300px;
+}
+h4{
+  position: relative;
+  bottom: 300px;
+  left:450px;
+  width: 200px;
+  padding:10px;
+  border-color: 2px solid white;
+  border-radius: 100px 100px 100px 100px;
+  box-shadow: 5px 0px 30px #12C5E1;
+  word-spacing: 10px;
+}
+.contactsection{
+  width: 100%;
+  position: relative;
+  margin: 50px 5px 0px 5px;
+  background-image: url("/lastbg.jpg");
+  background-size: 100%;
+  width: 100%;
+  height: 500px;
+  
+}
+.contactlist{
+  color:black;
+  width: 200px;
+  height:300px;
+  padding: 10px;
+  position: relative;
+  margin: 50px 10px 50px 40px;
+  border: 2px solid black;
+  border-radius: 10px 50px 10px 10px;
+  box-shadow: 5px 5px 20px #1585A9;
+  overflow: auto;
+}
+input[type="text"]{
+  padding: 10px;
+  width: 80%;
+  font-size: 15pt;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color:#11C1CD1A;
+}
+button{
+  width: 100%;
+  height: 30px;
+  color: #000000;
+background-color:#0DC4365C;
+border-radius: 10px
+}
+textarea{
+  width:100%;
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color:#20DBE803;
+}
+.contactform{
+  border-spacing: 50px;
+  color:black;
+  width: 400px;
+  height:265px;
+  padding: 10px 40px 40px 20px;
+  position: relative;
+  left:250px;
+  bottom:370px;
+  margin: 50px 10px 50px 40px;
+  border: 2px solid black;
+  border-radius: 50px 10px 10px 10px;
+  box-shadow: 5px 5px 20px #1585A9;
+  overflow: auto;
+}
+footer{
+  position: relative;
+}
+#lastheading{
+  width: 200px;
+}
+.foot{
+  width: 70%;
+  height:100px;
+  position: absolute;
+  top:5px;
+  word-spacing: 40px;
+  margin-left: 250px;
+  
+}
